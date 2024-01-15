@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--Los Checkbox para mejorar el funcionamiento es con un LinearLayout  -->
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="¿Tocas algun instrumento musical?"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700" />
+    <CheckBox
+        android:id="@+id/flauta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flauta" />
+    <CheckBox
+        android:id="@+id/Guitarra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guitarra" />
+    <CheckBox
+        android:id="@+id/Piano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Piano" />
+
+    <Button
+        android:id="@+id/button_gustar"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Aceptar" />
+
+    <EditText
+    android:id="@+id/txtResultado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+
+</LinearLayout>

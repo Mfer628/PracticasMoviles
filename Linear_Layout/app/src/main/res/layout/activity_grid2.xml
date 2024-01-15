@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    tools:context=".ActivityGrid">
+
+
+    <Button
+        android:text="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+       />
+    <Button
+        android:text="2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        />
+    <Button
+        android:text="3"
+        android:id="@+id/buttongrid"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:onClick="ver"
+
+        />
+    <Button
+        android:text="4"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <Button
+        android:text="5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <Button
+        android:text="6"
+        android:layout_rowSpan="3"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        />
+    <Button
+        android:text="7"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <Button
+        android:text="8"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <Button
+        android:text="9"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+</GridLayout>
+

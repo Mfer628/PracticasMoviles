@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <string name="txtnum1">Primer Numero</string>
+    <string name="editnum1">Escribe un numero</string>
+    <string name="txtnum2">Segundo Numero</string>
+    <string name="editnum2">Escribe un numero</string>
+
+    <string name="btnsumar">Sumar</string>
+    <string name="btnrestar">Restar</string>
+    <string name="btndiv">Dividir </string>
+    <string name="btnmult">Multiplicar</string>
+
+    <string name="txtResul">Resultado</string>
+    <string name="editresultado">Resultado</string>
+
+
+    <string name="activity_main_error">Campo Requerido</string>
+</resources>

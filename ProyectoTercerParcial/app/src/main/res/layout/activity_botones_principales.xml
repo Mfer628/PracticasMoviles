@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo"
+    android:orientation="vertical"
+    tools:context=".BotonesPrincipales">
+   <TextView
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Como deseas cortar tu verdura"
+       android:fontFamily="serif-monospace"
+       android:textSize="20dp"
+       android:textColor="@color/black"
+       android:layout_marginTop="150dp"
+       android:layout_gravity="center" />
+   <GridLayout
+       android:layout_width="600dp"
+       android:layout_height="wrap_content"
+       android:columnCount="4"
+       android:layout_gravity="center"
+       android:orientation="horizontal"
+       android:padding="60dp">
+
+      <ImageButton
+          android:id="@+id/btnCubos"
+          android:layout_width="80dp"
+          android:layout_height="80dp"
+          android:layout_marginTop="10sp"
+          app:srcCompat="@mipmap/cubos" />
+
+      <TextView
+          android:textSize="20dp"
+          android:fontFamily="serif-monospace"
+          android:textColor="@color/black"
+          android:layout_marginTop="20sp"
+          android:text=" Cubos  "/>
+      <ImageButton
+          android:id="@+id/btnJulianas"
+          android:layout_width="80dp"
+          android:layout_height="80dp"
+          app:srcCompat="@mipmap/julianas"
+          android:layout_marginTop="10sp"/>
+      <TextView
+          android:fontFamily="serif-monospace"
+          android:textColor="@color/black"
+          android:layout_marginTop="20dp"
+          android:text="  Julianas "
+          android:textSize="20dp"/>
+
+      <ImageButton
+          android:id="@+id/btnRallar"
+          android:layout_width="80dp"
+          android:layout_height="80dp"
+          app:srcCompat="@mipmap/zanahoriarayada"
+          android:layout_marginTop="10sp"/>
+
+      <TextView
+          android:fontFamily="serif-monospace"
+          android:textColor="@color/black"
+          android:layout_marginTop="20dp"
+          android:text=" Rayar"
+          android:textSize="20dp"
+          android:textAlignment="center"/>
+      <ImageButton
+          android:id="@+id/btnEspiral"
+          android:layout_width="80dp"
+          android:layout_height="80dp"
+          app:srcCompat="@mipmap/zanahoriaespiral"
+          android:layout_marginTop="10sp"/>
+      <TextView
+          android:fontFamily="serif-monospace"
+          android:textColor="@color/black"
+          android:layout_marginTop="20dp"
+          android:textSize="20dp"
+          android:text="  Espiral"
+          android:textAlignment="center"/>
+   </GridLayout>
+<LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="500dp"
+   android:orientation="horizontal">
+   <LinearLayout
+         android:layout_width="150dp"
+         android:layout_height="500dp"
+         android:orientation="vertical">
+        <TextView
+            android:id="@+id/lblTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona el tamaño"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:visibility="invisible"/>
+       <RadioGroup
+           android:id="@+id/RadioGroup"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_gravity="center">
+
+           <RadioButton
+            android:id="@+id/rdBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+       </RadioGroup>
+        <Button
+            android:id="@+id/btnListo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:text="Listo"
+            android:visibility="invisible"
+            android:layout_gravity="center"/>
+     </LinearLayout>
+
+</LinearLayout>
+    
+    
+    
+    
+
+</LinearLayout>

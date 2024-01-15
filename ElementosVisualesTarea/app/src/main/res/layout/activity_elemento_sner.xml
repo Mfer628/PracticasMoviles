@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Elemento_sner">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="what language do you like"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"/>
+<Spinner
+
+    android:id="@+id/spinner_Respuestas"
+    android:layout_width="220dp"
+    android:layout_height="56dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/txtRespuestas"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Choose"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

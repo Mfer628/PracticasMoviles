@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SensoresAndroid</string>
+    <string name="fingerprint_icon">Ícono de huella digital</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "310598491977",
+    "project_id": "proyectsexto-1744d",
+    "storage_bucket": "proyectsexto-1744d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310598491977:android:71d5fb1f501bc94b938498",
+        "android_client_info": {
+          "package_name": "com.example.proyectsexto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310598491977-f28d8j5dkf5robj72vvqa5m2g7dtl6pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBemG5GH86GSKB2MK-inPQTeJu3Ln2c5tA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310598491977-f28d8j5dkf5robj72vvqa5m2g7dtl6pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ActivityFrame">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="top|center"
+       android:background="#FFFFFF"
+       android:layout_margin="50dp"
+       android:text="Hola Frame"
+       android:textStyle="bold"
+       android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="35dp"
+        android:text="Ejemplo Frame Layaout"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btncalculadora"
+        android:text="Ir a calculadora"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="calculadora"
+
+    />
+
+</FrameLayout>

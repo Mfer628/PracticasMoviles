@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MostrarActivity">
+
+    <EditText
+        android:id="@+id/txtCodigo"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="id" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="Listar"
+        android:text="Listar" />
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="borrarelemento"
+        android:text="Borrar" />
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Actualizar" />
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/txtMostrar"
+        android:layout_width="352dp"
+        android:layout_height="235dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/style_bordes_editext"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:fontFamily="serif-monospace"
+            android:hint="@string/nom"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtapellido"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+           android:layout_marginTop="30dp"
+            android:background="@drawable/style_bordes_editext"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:fontFamily="serif-monospace"
+            android:hint="@string/apellido"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:radius="80dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/txtEdad"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/style_bordes_editext"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:fontFamily="serif-monospace"
+            android:hint="@string/edad"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:radius="80dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/style_bordes_editext"
+            android:drawableLeft="@drawable/baseline_info_24"
+            android:fontFamily="serif-monospace"
+            android:hint="@string/email"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:radius="80dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/txtpswd"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/style_bordes_editext"
+            android:drawableLeft="@drawable/baseline_info_24"
+            android:fontFamily="serif-monospace"
+            android:hint="@string/pswd"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:radius="80dp"
+            android:textColorHint="@color/white" />
+        <Button
+            android:id="@+id/btnListo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Listo"
+            android:onClick="actualizarDatos"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

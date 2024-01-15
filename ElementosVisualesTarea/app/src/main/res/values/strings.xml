@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ElementosVisualesTarea</string>
+    <string-array name="respuestas">
+        <item>Base Form</item>
+        <item>Past Simple</item>
+        <item>Past Participle</item>
+    </string-array>
+</resources>

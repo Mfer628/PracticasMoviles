@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LogIn</string>
+    <string name="title">Bienvenido</string>
+    <string name="User">User</string>
+    <string name="passwd">Password</string>
+    <string name="terminos">Acepto terminos y condiciones</string>
+    <string name="message">No existe</string>
+
+
+</resources>

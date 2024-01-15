@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hola My Application</string>
+
+    <string name="txtNombre">Nombre</string>
+    <string name="editNombre">Escribe tu Nombre</string>
+    <string name="txtTelefono">Telefono</string>
+    <string name="editTelefono">Escribe tu telefono</string>
+    <string name="btnGuardar">Guardar Datos</string>
+    <string name="activity_main_error">Campo Requerido</string>
+</resources>

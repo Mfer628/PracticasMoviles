@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNombre"/>
+        <EditText
+            android:id="@+id/activity_main_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/editNombre"
+            android:inputType="textPersonName" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTelefono"/>
+    <EditText
+        android:id="@+id/activity_main_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/editTelefono"
+        android:inputType="phone" />
+   <Button
+       android:id="@+id/activity_main_save"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/btnGuardar"
+       android:onClick="Guardar"
+       android:background="@drawable/green_button"
+       />
+
+<TextView
+    android:id="@+id/activity_main_contador"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="0"
+    android:textSize="20sp"
+
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/green_button"
+        android:text="Contar"
+        android:onClick="contar"/>
+
+</LinearLayout>

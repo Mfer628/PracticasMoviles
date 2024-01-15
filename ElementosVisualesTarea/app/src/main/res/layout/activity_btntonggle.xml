@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BTNTonggle">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textColor="@color/teal_700"
+        android:text="Verb Saw  -> Past Simple "/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is this false or True?"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error" />
+
+
+<ToggleButton
+    android:id="@+id/TgOpcion"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:textOn="True"
+    android:textOff="false"
+    android:checked="true"
+    android:text="True"/>
+
+    <TextView
+        android:id="@+id/txtResp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        />
+    <Button
+        android:id="@+id/Next4"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Next"/>
+
+
+</LinearLayout>
